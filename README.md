@@ -12,6 +12,7 @@ ubuntu.ltsbrasil.net/ubuntu-releases/20.04-desktop-amd64.iso
 sudo add-apt-repository ppa: linuxuprising/java 
 
 sudo apt update
+
 sudo apt instal oracle-java10-installer
 
 java --version
