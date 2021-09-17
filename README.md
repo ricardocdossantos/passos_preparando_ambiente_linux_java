@@ -49,9 +49,8 @@ versão 3.5.3</p>
 https://github.com/takari/maven-wrapper
 https://docs.gradle.org/current/userguide/gradle_wrapper.html
 
--gradle wrapper
-./gradlew -v
-
+- gradle wrapper
+- ./gradlew -v
 - mvn -N io.takari:maven:wrapper
 - ./mvn -v
 
