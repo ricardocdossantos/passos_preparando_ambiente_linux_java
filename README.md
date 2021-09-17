@@ -13,6 +13,10 @@ https://ubuntu.ltsbrasil.net/ubuntu-releases/20.04-desktop-amd64.iso
 - sudo apt update
 - sudo apt instal oracle-java10-installer
 
+- export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+- export PATH=$JAVA_HOME/bin:$PATH
+
+
 - java --version
 
 ## Ferramentas de build
@@ -26,7 +30,7 @@ https://gradle.org
 - cd Global\ Labs\ Academy
 - unzip -d /opt/gradle gradle-4.7-bin.zip
 - ls /opt/gradle/gradle-4.7
-- export PATH=$PATH:/opt/gradle/gradle-4.7/bin
+- export PATH=$PATH:/opt/gradle/gradle-6.9.1/bin
 
 - sudo apt purge gradle //oldversions
 
@@ -37,10 +41,11 @@ https://gradle.org
 <p>https://maven.apache.org<br>
 versão 3.5.3</p>
 
-- unzip -d /opt/maven apache-maven-3.5.3-bin.zip
-- ls /opt/maven/apache-maven-3.5.3
+- sudo mkdir /opt/maven
+- unzip -d /opt/maven apache-maven-3.8.2-bin.zip
+- ls /opt/maven/apache-maven-3.8.2
 - sudo apt purge maven //old versions
-- export PATH=$PATH:/opt/maven/apache-maven-3.5.3/bin
+- export PATH=$PATH:/opt/maven/apache-maven-3.8.2/bin
 
 - mvn -v
 
@@ -52,5 +57,5 @@ https://docs.gradle.org/current/userguide/gradle_wrapper.html
 - gradle wrapper
 - ./gradlew -v
 - mvn -N io.takari:maven:wrapper
-- ./mvn -v
+- ./mvnw -v
 
