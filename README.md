@@ -7,7 +7,7 @@ Passo a passo para instalação do Ubuntu, VMWare e utilização do terminal par
 ### Ubunto 20.04 LTS
 https://ubuntu.ltsbrasil.net/ubuntu-releases/20.04-desktop-amd64.iso
 
-## Instalando o Java 10
+## Instalando o Java 11
 
 - sudo add-apt-repository ppa: linuxuprising/java
 - sudo apt update
