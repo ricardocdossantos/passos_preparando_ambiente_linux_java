@@ -11,7 +11,7 @@ https://ubuntu.ltsbrasil.net/ubuntu-releases/20.04-desktop-amd64.iso
 
 - sudo add-apt-repository ppa:linuxuprising/java
 - sudo apt update
-- sudo apt instal oracle-java10-installer
+- sudo apt install oracle-java10-installer
 
 - export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 - export PATH=$JAVA_HOME/bin:$PATH
