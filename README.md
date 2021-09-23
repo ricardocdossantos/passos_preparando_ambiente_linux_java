@@ -11,7 +11,7 @@ https://ubuntu.ltsbrasil.net/ubuntu-releases/20.04-desktop-amd64.iso
 
 - sudo add-apt-repository ppa:linuxuprising/java
 - sudo apt update
-- sudo apt install oracle-java10-installer
+- sudo apt-get install openjdk-11-jdk
 
 - export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 - export PATH=$JAVA_HOME/bin:$PATH
@@ -39,7 +39,7 @@ https://gradle.org
 ### Maven
 
 <p>https://maven.apache.org<br>
-versão 3.5.3</p>
+versão 3.8.2</p>
 
 - sudo mkdir /opt/maven
 - unzip -d /opt/maven apache-maven-3.8.2-bin.zip
